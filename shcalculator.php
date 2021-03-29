@@ -22,6 +22,9 @@ if (is_numeric($first_num) && is_numeric($second_num)) {
             break;
         case "Divide":
             $result = $first_num / $second_num;
+            break;
+            case "modulus":
+            $result = $first_num % $second_num;
     }
 }
 
@@ -44,6 +47,7 @@ if (is_numeric($first_num) && is_numeric($second_num)) {
             <input type="submit" name="operator" value="Subtract" />
             <input type="submit" name="operator" value="Multiply" />
             <input type="submit" name="operator" value="Divide" />
+            <input type="submit" name="operator" value="modulus" />
 	  </form>
     </div>
 </body>
